@@ -1,0 +1,55 @@
+/* dont use too many colors and fonts */
+/* keep the font black and the font size reasonably large. */
+/* background should be either white or very faint color. */
+/* no fancy fonts */
+
+img {
+    object-fit: scale-down;
+}
+img {
+    width: 95%;
+}
+
+/* Use this color: #2ADB9B  and this color #1e2f2f */
+
+body, html {
+    background-color: #373F47 ;
+    color: #FBFBEE;
+    height: 100%;
+}
+
+#buttonone {
+    
+}
+
+#buttontwo {
+    background-color: #2ADB9B;
+    color: white;
+    font-size: 22px;
+    border-radius: 12px;
+    margin-left: 20% ;
+    margin-right: 20%;
+}
+.parallax {
+    background-image: url("https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 50px ;
+    color:#e6ffe6;
+    font-family: 'Arima Madurai', cursive;
+  }
+
+#sources {
+    background: hsla(210, 13%, 25%, 1);
+    background: linear-gradient(270deg, hsla(210, 13%, 25%, 1) 0%, hsla(176, 100%, 41%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(210, 13%, 25%, 1) 0%, hsla(176, 100%, 41%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(210, 13%, 25%, 1) 0%, hsla(176, 100%, 41%, 1) 100%)
+}  
+ol {
+    margin-left: 7.5% ;
+    margin-right: 10%;
+}
