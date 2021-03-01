@@ -64,8 +64,8 @@ table, th, td {
 }
 
 button {
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 30%;
+    margin-left: 30%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
@@ -73,6 +73,7 @@ button {
     align-self: center;
     font-size: 22px;
     border-radius: 12px;
+    color: #FBFBEE;
 }
 .parallax {
     background-image: url("https://images.unsplash.com/photo-1534996858221-380b92700493?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
@@ -86,7 +87,12 @@ button {
     color:#e6ffe6;
     font-family: 'Arima Madurai', cursive;
   }
-
+.center1 {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #cars {
     background-image: url("https://images.unsplash.com/photo-1480790846976-3aeb0c976d71?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjZ8fGNhcnN8ZW58MHwwfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
     height: 50vh;
