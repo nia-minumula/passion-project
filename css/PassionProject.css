@@ -13,12 +13,16 @@ body, html {
     background-color: #373F47 ;
     color: #FBFBEE;
     height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .column {
     width: 48%;
     padding: 1%;
     float: left;
+}
+.nature {
+    width: 33.33%;
 }
 
 .row::after {
@@ -36,7 +40,7 @@ table, th, td {
     margin-right: 1%;
 }
 .diagram {
-    width: 40%;
+    width: 100%;
 }
 
 #buttonone {
@@ -67,7 +71,6 @@ button {
     padding-top: 20px;
     padding-bottom: 20px;
     align-self: center;
-    color: white;
     font-size: 22px;
     border-radius: 12px;
 }
@@ -133,21 +136,13 @@ mark {
 #sources {
 margin-left: 5%;
 margin-right: 5%;
-font-size: 12px;
+font-size: 15px;
 
 }
 
 ul {
     font-size: 20px ;
 } 
-
-
-#col {
-      float: left;
-      width: 27%;
-      margin-left: 1%;
-      margin-right: 1%;
-  }
 
   #q1 {
       margin-left: 10%;
