@@ -6,13 +6,6 @@
 
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-img {
-    object-fit: scale-down;
-    width: 95%;
 }
 
 
@@ -104,13 +97,12 @@ button {
 }
 
 .four {
-    height: 33.33%;
+    min-height: 50%;
     background-repeat: no-repeat;
     text-align: center;
     background-position: center;
     background-size: cover;
     font-size: 50px;
-    color:  #e600ac;
 }
 
 mark {
@@ -123,24 +115,48 @@ mark {
 margin-left: 5%;
 margin-right: 5%;
 font-size: 12px;
+
 }
 
 ul {
     font-size: 20px ;
 } 
 
-.column {
-    float: left;
+
+#col {
+      float: left;
+      width: 27%;
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+
+.weird {
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+
+#pics {
+    width: 102px;
+    float: inherit;
+    object-fit: cover;
+    padding-right: 3%;
+    padding-right: 3%;
+}
+
+#bulletpoints2 {
     width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+}
+
+#pictures {
+    width: 45%;
+}
+
+#table {
+    width: 100%;
+    padding: 25px;
+}
 
   #q1 {
       margin-left: 10%;
@@ -150,7 +166,9 @@ ul {
       text-align: center;
       
   }
-
+#hello {
+    width: 100%;
+}
 /* CSS HEX
 --charcoal: #373f47ff;
 --ivory: #fbfbeeff;
