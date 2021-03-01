@@ -4,6 +4,9 @@
 /* no fancy fonts */
 
 
+
+
+
 * {
     margin: 0;
 }
@@ -17,42 +20,39 @@ body, html {
     height: 100%;
 }
 
+
+.column {
+    width: 48%;
+    padding: 1%;
+    float: left;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
 #buttonone {
     background-color: #f6bccd;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 
 #buttontwo {
     background-color: #f08fac;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 #buttonthree {
     background-color: #ea628b;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 #buttonfour {
     background-color: #e33569;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 #buttonfive {
     background-color: #ca1c50;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 #buttonsix {
     background-color: #9d153e;
-    color: white;
-    font-size: 22px;
-    border-radius: 12px;
 }
 
 button {
@@ -63,6 +63,9 @@ button {
     padding-top: 20px;
     padding-bottom: 20px;
     align-self: center;
+    color: white;
+    font-size: 22px;
+    border-radius: 12px;
 }
 .parallax {
     background-image: url("https://images.unsplash.com/photo-1534996858221-380b92700493?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
@@ -130,34 +133,6 @@ ul {
       margin-right: 1%;
   }
 
-.weird {
-    height: 100%;
-    width: 100%;
-    background-color: cornflowerblue;
-}
-
-
-#pics {
-    width: 102px;
-    float: inherit;
-    object-fit: cover;
-    padding-right: 3%;
-    padding-right: 3%;
-}
-
-#bulletpoints2 {
-    width: 40%;
-}
-
-#pictures {
-    width: 45%;
-}
-
-#table {
-    width: 100%;
-    padding: 25px;
-}
-
   #q1 {
       margin-left: 10%;
   }
@@ -166,9 +141,7 @@ ul {
       text-align: center;
       
   }
-#hello {
-    width: 100%;
-}
+
 /* CSS HEX
 --charcoal: #373f47ff;
 --ivory: #fbfbeeff;
