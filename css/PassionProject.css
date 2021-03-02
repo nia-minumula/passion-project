@@ -5,6 +5,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Use this color: #2ADB9B  and this color #1e2f2f */
@@ -13,35 +15,97 @@ body, html {
     background-color: #373F47 ;
     color: #FBFBEE;
     height: 100%;
+    width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.column {
-    width: 48%;
-    padding: 1%;
-    float: left;
-}
+
 .nature {
     width: 33.33%;
 }
 
-.row::after {
-    clear: both;
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 30%;
+  }
+
+  .right {
+    width: 30%;
+    padding-top: 70px;
+    padding-left: 70px;
+  }
+  
+  .middle {
+    width: 30%;
+  }
+  
+  .row{
+    margin:0 auto;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
     content: "";
     display: table;
-}
+    clear: both;
+  }
 
-table {
-    width: 100%;
-}
+  .divimg{
+      max-width: 100%;
+      max-height: 100%;
+     display: block; 
 
-table, th, td {
-    padding: 1%;
-    margin-right: 1%;
-}
-.diagram {
-    width: 100%;
-}
+  }
+
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20 px;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 4; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div5 { 
+        grid-area: 1 / 1 / 3 / 2; 
+        padding-top: 100px;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 2;
+    }
+
+    .topparent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        }
+        
+        .div6 { 
+            grid-area: 1 / 1 / 2 / 2; 
+            padding-left: 20px;
+        
+        }
+        .div7 { 
+            grid-area: 1 / 2 / 2 / 3; 
+            padding-left: 20px;
+        }
+        .div8 {
+             grid-area: 1 / 3 / 2 / 4;
+             padding-left: 50px;
+             padding-top: 50px;
+             }
+
 
 #buttonone {
     background-color: #f6bccd;
@@ -150,13 +214,13 @@ ul {
     font-size: 20px ;
 } 
 
-  #q1 {
+#q1 {
       margin-left: 10%;
-  }
+}
 
-  #question {
-      text-align: center;
-      margin: 20px;
+#question {
+    text-align: center;
+    margin: 20px;
   }
 
 /* CSS HEX
