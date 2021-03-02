@@ -24,39 +24,10 @@ body, html {
     width: 33.33%;
 }
 
-/* Create three unequal columns that floats next to each other */
-.column {
-    float: left;
-    padding: 10px;
-  }
-  
-  .left {
-    width: 30%;
-  }
-
-  .right {
-    width: 30%;
-    padding-top: 70px;
-    padding-left: 70px;
-  }
-  
-  .middle {
-    width: 30%;
-  }
-  
-  .row{
-    margin:0 auto;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+ 
 
   .divimg{
-      max-width: 100%;
+      max-width: 75%;
       max-height: 100%;
      display: block; 
 
@@ -71,7 +42,9 @@ body, html {
     grid-row-gap: 5 px;
     }
     
-    .div1 { grid-area: 1 / 2 / 2 / 3; }
+    .div1 { 
+        grid-area: 1 / 2 / 2 / 3;
+    }
     .div2 { grid-area: 1 / 3 / 2 / 4; }
     .div3 { grid-area: 2 / 2 / 3 / 3; }
     .div4 { grid-area: 2 / 3 / 3 / 4; }
@@ -109,22 +82,28 @@ body, html {
 
 #buttonone {
     background-color: #f6bccd;
+    margin-bottom: 20px;
 }
 
 #buttontwo {
     background-color: #f08fac;
+    margin-bottom: 20px;
 }
 #buttonthree {
     background-color: #ea628b;
+    margin-bottom: 20px;
 }
 #buttonfour {
     background-color: #e33569;
+    margin-bottom: 20px;
 }
 #buttonfive {
     background-color: #ca1c50;
+    margin-bottom: 20px;
 }
 #buttonsix {
     background-color: #9d153e;
+    margin-bottom: 20px;
 }
 
 button {
@@ -151,6 +130,7 @@ button {
     color:#e6ffe6;
     font-family: 'Arima Madurai', cursive;
   }
+
 .center1 {
     position: absolute;
   top: 50%;
@@ -220,11 +200,6 @@ ul {
 
 #question {
     text-align: center;
-    margin: 20px;
+    margin: 40px;
   }
 
-/* CSS HEX
---charcoal: #373f47ff;
---ivory: #fbfbeeff;
---blush: #ea638cff;
---cornflower-blue: #7f95d1ff;*/
